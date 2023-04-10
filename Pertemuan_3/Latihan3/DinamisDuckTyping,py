@@ -1,0 +1,14 @@
+class Ayam:
+    def bersuara(self):
+        print("Kok kok")
+class Bebek:
+    def bersuara(self):
+        print("wek wek")
+
+def cetak_suara(objek):
+    objek.bersuara()
+Ayam = Ayam()
+Bebek = Bebek()
+
+cetak_suara(Ayam)
+cetak_suara(Bebek)
